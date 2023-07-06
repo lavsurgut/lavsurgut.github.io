@@ -1,0 +1,15 @@
+[[package]]
+name = "asciidoc3"
+version = "3.2.3"
+description = "AsciiDoc3 Python3 GNU/Linux Windows AsciiDoc - see https://asciidoc3.org/pypi.html BEFORE installing"
+category = "dev"
+optional = false
+python-versions = ">= 3.7"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "4d99d6efddad962e2df0fe7b1fcd07d1a8718cb535c2ad6afa250bfa9e2f3041"
+
+[metadata.files]
+asciidoc3 = []
