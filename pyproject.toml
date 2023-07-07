@@ -6,9 +6,10 @@ authors = ["Valery Lavrentiev <lavsurgut@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pelican = {extras = ["markdown"], version = "^4.8.0"}
 
 [tool.poetry.dev-dependencies]
-asciidoc3 = "^3.2.3"
+pelican = "^4.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
