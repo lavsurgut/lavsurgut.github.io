@@ -11,21 +11,19 @@
 <div id="top" class="container" role="document">
     <main role="main">
         <section id="text">
-            {% for article in articles_page.object_list %}
                 <article id="text__paragraphs">
                     <header>
-                        <h1>{{ article.title }}</h1>
+                        <h1>Second post</h1>
                     </header>
                     <div>
                         <p>
-                            {{ article.summary }}
+                            <p>Here I'm writing again.</p>
                         </p>
                     </div>
                     <footer>
-                        <time> {{ article.date | strftime ('%B %d, %Y') }}</time>
+                        <time> Juli 10, 2023</time>
                     </footer>
                 </article>
-            {% endfor %}
         </section>
     </main>
     </div>
