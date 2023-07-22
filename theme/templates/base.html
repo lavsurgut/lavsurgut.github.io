@@ -10,20 +10,20 @@
 <body>
 <div id="top" class="container" role="document">
     <main role="main">
+        <nav class="nav">
+            <div class="nav-left">
+                <a class="brand" href="/">Valery's blog</a>
+            </div>
+            <div class="nav-right">
+                <a href="pages/about-me" class="button clear icon-only">
+                    <img src="https://icongr.am/feather/file-text.svg?size=24">
+                </a>
+            </div>
+        </nav>
+        <hr />
         <section id="text">
-                <article id="text__paragraphs">
-                    <header>
-                        <h1>My First Post</h1>
-                    </header>
-                    <div>
-                        <p>
-                            <p>Hello world!</p>
-                        </p>
-                    </div>
-                    <footer>
-                        <time> Juli 07, 2023</time>
-                    </footer>
-                </article>
+            {% block content %}
+            {% endblock %}
         </section>
     </main>
     </div>
